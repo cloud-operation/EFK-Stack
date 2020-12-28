@@ -9,6 +9,8 @@ kubectl create -f logging.yaml
 
 2: kubectl create -f elasticsearch_svc.yaml
 
+*** Need to create 3 PV (each 10G storage) before creating elasticsearch_statefulset
+
 3: kubectl create -f elasticsearch_statefulset.yaml
 
 optional: 
